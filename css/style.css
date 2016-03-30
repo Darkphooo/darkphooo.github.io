@@ -31,7 +31,7 @@ a.navbar-brand
   #navbar-collapse
   {
     padding: 15px;
-    background-color: rgba(54,100,139,0.5);
+    background-color: #000;
     border: none;
   }
 }
@@ -44,7 +44,7 @@ a.navbar-brand
 .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:hover, .navbar-default .navbar-nav>.active>a:focus
 {
   color: #fff;
-  background-color: rgba(54,100,139,0.5);
+  background-color: #000;
   border-radius: 10px;
 }
 
@@ -68,20 +68,20 @@ a.navbar-brand
 .navbar-default .navbar-nav>li>a:hover
 {
   color: #fff;
-  background-color: rgba(54,100,139,0.5);
+  background-color: #000;
   border-radius: 10px;
 }
 .navbar-default .navbar-nav>li>a:active
 {
   color: #fff;
-  background-color: rgba(54,100,139,0.5);
+  background-color: #000;
   border-radius: 10px;
 }
 
 .navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:hover, .navbar-default .navbar-nav>.open>a:focus
 {
   color: #fff;
-  background-color: rgba(54,100,139,0.5);
+  background-color: #000;
 }
 
 @media (max-width: 767px)
