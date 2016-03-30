@@ -5,29 +5,11 @@ body
   font-family: -apple-system, "Helvetica Neue", Helvetica, "Nimbus Sans L", Arial, "Liberation Sans", "PingFang SC", "Hiragino Sans GB", "Source Han Sans CN", "Source Han Sans SC", "Microsoft YaHei", "Wenquanyi Micro Hei", "WenQuanYi Zen Hei", "ST Heiti", SimHei, "WenQuanYi Zen Hei Sharp", sans-serif;
 }
 
-#floatad
-{
-  position: absolute;
-  width: 80px;
-  height: 80px;
-  left: 88px;
-  top: 88px;
-  z-index: 100;
-  visibility: visible;
-}
-
-#floatad-pic
-{
-  width: 80px;
-  height: 80px;
-  border: 0;
-}
-
 #navbar
 {
   width: 100%;
   height: 80px;
-  background-image: url(../img/headerBG.png);
+  background-color: #003399;
   font-size: 16px;
   font-family: -apple-system, "Helvetica Neue", Helvetica, "Nimbus Sans L", Arial, "Liberation Sans", "PingFang SC", "Hiragino Sans GB", "Source Han Sans CN", "Source Han Sans SC", "Microsoft YaHei", "Wenquanyi Micro Hei", "WenQuanYi Zen Hei", "ST Heiti", SimHei, "WenQuanYi Zen Hei Sharp", sans-serif;
   border: none;
@@ -124,100 +106,4 @@ a.navbar-brand
 {
   padding: 8px 5px;
   color: #fff;
-}
-
-#picchange
-{
-  width: 1200px;
-  height: auto;
-  position: relative;
-}
-
-@media(min-width:768px)
-{
-  #hov:hover div#count
-  {
-    opacity: 1;
-  }
-
-  #count
-  {
-    position:absolute;
-    width: 37.6%;
-    height: 46.8%;
-    left: 31.2%;
-    top: 10.5%;
-    padding-top: 20px;
-    opacity: 0;
-    text-align: center;
-    display: block;
-    background-color: rgba(0,0,0,0.9);
-            transition: 0.3s;
-    -webkit-transition: 0.5s;
-       -moz-transition: 0.5s;
-  }
-}
-.tag
-{
-  margin-top: 10px;
-  margin-bottom: 10px;
-}
-
-#videoframe
-{
-  margin: 10px 0px;
-  background-color: #363f48;
-}
-
-#videoframe h4
-{
-  color: #fff;
-  text-align: center;
-  font-size: 1.1vw;
-}
-
-.videoframe
-{
-  padding: 10px;
-  width: 100%;
-  height: 16vw;
-}
-
-#footer
-{
-  margin-top:10px;
-}
-
-#copyright
-{
-  margin-top: 2px;
-  font-size: 4px;
-  text-align: center;
-}
-
-@media(min-width:768px)
-{
-  #copyright
-  {
-    margin-top: 10px;
-    font-size: 14px;
-    text-align: center;
-  }
-}
-
-#logo
-{
-  
-}
-
-#introduction
-{
-  margin-top: 10px;
-  font-size: 18px;
-  text-align: justify;
-}
-
-.chinesetext
-{
-  text-indent: 2em;
 }
