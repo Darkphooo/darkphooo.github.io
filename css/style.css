@@ -5,12 +5,18 @@ body
   font-family: -apple-system, "Helvetica Neue", Helvetica, "Nimbus Sans L", Arial, "Liberation Sans", "PingFang SC", "Hiragino Sans GB", "Source Han Sans CN", "Source Han Sans SC", "Microsoft YaHei", "Wenquanyi Micro Hei", "WenQuanYi Zen Hei", "ST Heiti", SimHei, "WenQuanYi Zen Hei Sharp", sans-serif;
 }
 
+#layer
+{
+  position: relative;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+
 #background
 {
-   position: absolute;
-   width: 100%;
-   height: 100%;
-   z-index: -1;
+  width: 100%;
+  height: 100%;
 }
 
 #logo
