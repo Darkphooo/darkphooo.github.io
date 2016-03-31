@@ -1,11 +1,11 @@
 /**
- * downCount: Simple Countdown clock with offset
+ * Count: Simple Countdown clock with offset
  * Author: Sonny T. <hi@sonnyt.com>, sonnyt.com
  */
 
 (function ($) {
 
-    $.fn.downCount = function (options, callback) {
+    $.fn.Count = function (options, callback) {
         var settings = $.extend({
                 date: null,
                 offset: null
@@ -42,7 +42,7 @@
         };
 
         /**
-         * Main downCount function that calculates everything
+         * Main Count function that calculates everything
          */
         function countdown () {
             var target_date = new Date(settings.date), // set target date
@@ -52,7 +52,7 @@
             var difference = target_date - current_date;
 
             // if difference is negative than it's pass the target date
-            if (difference < 0) {
+            if (difference > 0) {
                 // stop timer
                 clearInterval(interval);
 
