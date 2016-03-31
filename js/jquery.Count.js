@@ -49,10 +49,10 @@
                 current_date = currentDate(); // get fixed current date
 
             // difference of dates
-            var difference = current_date - target_date;
+            var difference = current_date - target_date ;
 
             // if difference is negative than it's pass the target date
-            if (difference > 0) {
+            if (difference < 0) {
                 // stop timer
                 clearInterval(interval);
 
