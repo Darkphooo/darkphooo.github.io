@@ -1,50 +1,48 @@
 @charset "utf-8";
-@media(min-width:768px)
-{
-	div>h1{
-		color: white;
-		margin: 15px;
-		font-size: 2vw;
-	}
-	div>h2{
-		margin: 0px;
-		color: white;
-		font-size: 1.25vw;
-	}
-	ul.countdown {
-		color: white;
-		font: normal 1vw;
-		list-style: none;
-		padding: 0;
-		display: block;
-		text-align: center;
-	}
-	ul.countdown li {
-		display: inline-block;
-	}
-	ul.countdown li span {
-		font-size: 4vw;
-		line-height: 4.5vw;
-	}
-	ul.countdown li.seperator {
-		font-size: 4vw;
-		line-height: 4.5vw;
-		vertical-align: top;
-	}
-	ul.countdown li p {
-		color: white;
-		font-size: 2vw;
-	}
-	a {
-		color: #76949F;
-		text-decoration: none;
-	}
-	a:hover {
-		text-decoration: none;
-	}
-	.source {
-		line-height:0;
-		font-size:0;
-		overflow:hidden;
-	}
+div>h1{
+	color: white;
+	margin: 15px;
+	font-size: 2vw;
+	line-height: 3vw;
+}
+div>h2{
+	margin: 0px;
+	color: white;
+	font-size: 1.25vw;
+}
+ul.countdown {
+	color: white;
+	font: normal 1vw;
+	list-style: none;
+	padding: 0;
+	display: block;
+	text-align: center;
+}
+ul.countdown li {
+	display: inline-block;
+}
+ul.countdown li span {
+	font-size: 5vw;
+	line-height: 6vw;
+}
+ul.countdown li.seperator {
+	font-size: 5vw;
+	line-height: 6vw;
+	vertical-align: top;
+}
+ul.countdown li p {
+	color: white;
+	font-size: 1.5vw;
+}
+a {
+	color: #76949F;
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+}
+.source {
+	line-height:0;
+	font-size:0;
+	overflow:hidden;
 }
