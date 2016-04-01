@@ -142,7 +142,7 @@ a.navbar-brand
   #navbar-collapse
   {
     padding: 15px;
-    background-color: #000;
+    background-color: rgba(94,94,94,0.4);
     border: none;
   }
 }
@@ -203,8 +203,12 @@ a.navbar-brand
   }
 }
 
-.dropdown:hover .dropdown-menu {
-    display: inline;
+@media(min-width: 768px)
+{
+  .dropdown:hover .dropdown-menu
+  {
+    display: block;
+  }
 }
 
 .dropdown-menu
@@ -217,6 +221,11 @@ a.navbar-brand
 {
   padding: 8px 5px;
   color: #fff;
+}
+
+#countpic
+{
+  pointer-events: none;
 }
 
 #background
@@ -235,6 +244,7 @@ a.navbar-brand
   top: 5%;
   width: 84%;
   height: 90%;
+  z-index: -1;
   padding: 4% 0;
   text-align: center;
   display: block;
@@ -265,7 +275,7 @@ a.navbar-brand
 
 #contact
 {
-  font-size: 1.2rem;
+  font-size: 1.8rem;
   color: #fff;
 }
 
