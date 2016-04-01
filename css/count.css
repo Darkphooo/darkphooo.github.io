@@ -1,46 +1,94 @@
 @charset "utf-8";
+@media only screen
+{
+  html
+  {
+    font-size: 30px;
+  }
+}
+
+@media only screen and (max-width: 1280px) and (min-width: 1025px)
+{
+  html
+  {
+    font-size: 22px;
+  }
+}
+
+@media only screen and (max-width: 1024px) and (min-width: 769px)
+{
+  html
+  {
+    font-size: 18px;
+  }
+}
+
+@media only screen and (max-width: 768px) and (min-width: 481px)
+{
+  html
+  {
+    font-size: 15px;
+  }
+}
+
+@media only screen and (max-width: 480px) and (min-width: 321px)
+{ 
+  html 
+  {
+    font-size: 10px; 
+  } 
+}
+
+@media only screen and (max-width: 320px)
+{ 
+  html 
+  {
+    font-size: 8px; 
+  } 
+}
+
 div>h1{
 	color: white;
-	margin: 15px;
-	font-size: 2vw;
-	line-height: 3vw;
+	margin: 1rem;
+	font-size: 2rem;
 }
-div>h2{
-	margin: 0px;
-	color: white;
-	font-size: 1.25vw;
-}
+
 ul.countdown {
 	color: white;
-	font: normal 1vw;
+	font: normal 2rem;
 	list-style: none;
 	padding: 0;
 	display: block;
 	text-align: center;
 }
+
 ul.countdown li {
 	display: inline-block;
 }
+
 ul.countdown li span {
-	font-size: 5vw;
-	line-height: 6vw;
+	font-size: 3rem;
 }
+
 ul.countdown li.seperator {
-	font-size: 5vw;
-	line-height: 6vw;
+	font-size: 3rem;
 	vertical-align: top;
 }
+
 ul.countdown li p {
 	color: white;
-	font-size: 1.5vw;
+	font-size: 0.75rem;
 }
+
 a {
 	color: #76949F;
 	text-decoration: none;
 }
+
 a:hover {
 	text-decoration: none;
 }
+
 .source {
 	line-height:0;
 	font-size:0;
