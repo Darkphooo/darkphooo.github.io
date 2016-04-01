@@ -223,11 +223,6 @@ a.navbar-brand
   color: #fff;
 }
 
-#countpic
-{
-  pointer-events: none;
-}
-
 #background
 {
   position: relative;
