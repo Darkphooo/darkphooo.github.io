@@ -120,7 +120,7 @@ body
 {
   width: 100%;
   height: 80px;
-  background-color: #5e5e5e;
+  background-color: #222222;
   font-size: 0.6rem;
   font-family: -apple-system, "Helvetica Neue", Helvetica, "Nimbus Sans L", Arial, "Liberation Sans", "PingFang SC", "Hiragino Sans GB", "Source Han Sans CN", "Source Han Sans SC", "Microsoft YaHei", "Wenquanyi Micro Hei", "WenQuanYi Zen Hei", "ST Heiti", SimHei, "WenQuanYi Zen Hei Sharp", sans-serif;
   border: none;
@@ -143,7 +143,7 @@ a.navbar-brand
   #navbar-collapse
   {
     padding: 15px;
-    background-color: #5e5e5e;
+    background-color: rgba(34,34,34,0.7);
     border: none;
   }
 }
