@@ -143,7 +143,7 @@ a.navbar-brand
   #navbar-collapse
   {
     padding: 15px;
-    background-color: rgba(94,94,94,0.7);
+    background-color: #5e5e5e;
     border: none;
   }
 }
