@@ -47,13 +47,15 @@
   } 
 }
 
-div>h1{
+div>h1
+{
 	color: white;
 	margin: 1rem;
 	font-size: 2rem;
 }
 
-ul.countdown {
+ul.countdown
+{
 	color: white;
 	font: normal 2rem;
 	list-style: none;
@@ -62,34 +64,41 @@ ul.countdown {
 	text-align: center;
 }
 
-ul.countdown li {
+ul.countdown li
+{
 	display: inline-block;
 }
 
-ul.countdown li span {
+ul.countdown li span
+{
 	font-size: 3rem;
 }
 
-ul.countdown li.seperator {
+ul.countdown li.seperator
+{
 	font-size: 3rem;
 	vertical-align: top;
 }
 
-ul.countdown li p {
+ul.countdown li p
+{
 	color: white;
 	font-size: 0.75rem;
 }
 
-a {
+a
+{
 	color: #76949F;
 	text-decoration: none;
 }
 
-a:hover {
+a:hover
+{
 	text-decoration: none;
 }
 
-.source {
+.source
+{
 	line-height:0;
 	font-size:0;
 	overflow:hidden;

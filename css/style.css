@@ -204,7 +204,7 @@ a.navbar-brand
 }
 
 .dropdown:hover .dropdown-menu {
-    display: block;
+    display: inline;
 }
 
 .dropdown-menu
