@@ -10,6 +10,7 @@
     <script src="//cdn.bootcss.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
     <script src="js/jquery.Count.js"></script>
     <script src="js/changepic.js"></script>
+    <script src="js/over.js"></script>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
   </head>
@@ -42,7 +43,7 @@
     </nav>
     <div class="container">
       <div class="row">
-        <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 col-sm-offset-3 col-md-offset-4 col-lg-offset-4">
+        <div class="col-xs-12 col-sm-8 col-md-6 col-lg-6 col-sm-offset-2 col-md-offset-3 col-lg-offset-3">
           <p class="title">关于我</p>
           <p id="aboutme">
               褚逸飞
@@ -56,20 +57,25 @@
           </p>
           <p class="title">学习经历</p>
           <p id="education">
-            <div id="highsch">
-            <p><span class="icon-caret-right"> </span>南京市第十三中学</p>
-            <p class="hide-highsch">2010年9月-2013年6月</p>
+            <div id="highsch" onmouseover="highschOver(this)" onmouseout="highschOut(this)">
+            <p><span class="icon-caret-right" id="highschico"> </span>南京市第十三中学</p>
+            <p class="hide-edu">2010年9月-2013年6月</p>
             </div>
-            <div id="college">
-            <p><span class="icon-caret-right"> </span>南京邮电大学</p>
-            <p class="hide-college">软件工程</p>
-            <p class="hide-college">2013年9月-2017年6月</p>
+            <div id="college" onmouseover="collegeOver(this)" onmouseout="collegeOut(this)">
+            <p><span class="icon-caret-right" id="collegeico"> </span>南京邮电大学</p>
+            <p class="hide-edu">软件工程</p>
+            <p class="hide-edu">2013年9月-2017年6月</p>
             </div>
           </p>
           <p class="title">项目经历</p>
-          <ul id="work">
-            <li id="work1">汇文国际中学生模拟联合国大会官网</li>
-          </ul>
+          <p id="work">
+            <div id="work1" onmouseover="work1Over(this)" onmouseout="work1Out(this)">
+            <p>
+            <span class="icon-caret-right" id="work1ico"> </span>汇文国际中学生模拟联合国大会官网</p>
+            <p class="hide-work">2015年9月-至今</p>
+            <p class="hide-work">独立进行网站开发维护管理</p>
+            </div>
+          </p>
 
         </div>
       </div>

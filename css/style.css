@@ -320,21 +320,14 @@ p>a:active, p>a:hover
   height: 1.2rem;
   font-size: 0.8rem;
   overflow: hidden;
+  cursor: default;
+  -webkit-transition: height 1s;
+          transition: height 1s;
 }
 
 #highsch:hover
 {
-  width: 100%;
   height: 2.4rem;
-  -webkit-transition: height 1s;
-          transition: height 1s;
-  cursor: default;
-}
-
-.hide-highsch
-{
-  font-size: 0.5rem;
-  text-indent: 1.5em;
 }
 
 #college
@@ -343,19 +336,41 @@ p>a:active, p>a:hover
   height: 1.2rem;
   font-size: 0.8rem;
   overflow: hidden;
+  cursor: default;
+  -webkit-transition: height 2s;
+          transition: height 2s;
 }
 
 #college:hover
 {
-  width: 100%;
   height: 3.4rem;
-  -webkit-transition: height 1s;
-          transition: height 1s;
-  cursor: default;
 }
 
-.hide-college
+.hide-edu
 {
   font-size: 0.5rem;
   text-indent: 1.5em;
 }
+
+#work1
+{
+  width: 100%;
+  height: 1.2rem;
+  font-size: 0.8rem;
+  overflow: hidden;
+  cursor: default;
+  -webkit-transition: height 2s;
+          transition: height 2s;
+}
+
+#work1:hover
+{
+  height: 3.4rem;
+}
+
+.hide-work
+{
+  font-size: 0.5rem;
+  text-indent: 1.5em;
+}
+
