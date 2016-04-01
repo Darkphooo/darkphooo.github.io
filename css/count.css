@@ -7,7 +7,7 @@
   }
 }
 
-@media only screen and (max-width: 1280px) and (min-width: 1025px)
+@media only screen and (max-width: 1280px) and (min-width: 481px)
 {
   html
   {
@@ -15,27 +15,11 @@
   }
 }
 
-@media only screen and (max-width: 1024px) and (min-width: 769px)
-{
-  html
-  {
-    font-size: 18px;
-  }
-}
-
-@media only screen and (max-width: 768px) and (min-width: 481px)
-{
-  html
-  {
-    font-size: 15px;
-  }
-}
-
 @media only screen and (max-width: 480px) and (min-width: 321px)
 { 
   html 
   {
-    font-size: 10px; 
+    font-size: 16px; 
   } 
 }
 
@@ -43,15 +27,15 @@
 { 
   html 
   {
-    font-size: 8px; 
+    font-size: 12px; 
   } 
 }
 
 div>h1
 {
 	color: white;
-	margin: 1rem;
-	font-size: 2rem;
+	margin: 0.75rem;
+	font-size: 1rem;
 }
 
 ul.countdown
@@ -71,19 +55,19 @@ ul.countdown li
 
 ul.countdown li span
 {
-	font-size: 3rem;
+	font-size: 2.2rem;
 }
 
 ul.countdown li.seperator
 {
-	font-size: 3rem;
+	font-size: 2.2rem;
 	vertical-align: top;
 }
 
 ul.countdown li p
 {
 	color: white;
-	font-size: 0.75rem;
+	font-size: 0.55rem;
 }
 
 a

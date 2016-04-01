@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Darkphooo's Blog</title>
+    <title>/*About*/Darkphooo's Blog</title>
     <link href="//cdn.bootcss.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
     <link href="css/count.css" rel="stylesheet">
@@ -18,9 +18,7 @@
       <div class="navbar-header">
         <button type="button" class="navbar-toggle navbar-right" data-toggle="collapse" data-target="#navbar-collapse">
           <span class="sr-only">切换导航</span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
+          <span class="icon-caret-down"></span>
         </button>
         <a class="navbar-brand" href="index.html"><img src="img/logo.png" class="img-responsive" id="logo" alt="logo"></a>
       </div>
@@ -44,7 +42,35 @@
     </nav>
     <div class="container">
       <div class="row">
-          
+        <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 col-sm-offset-3 col-md-offset-4 col-lg-offset-4">
+          <p class="title">关于我</p>
+          <p id="aboutme">
+              褚逸飞
+          <br>出生于1994年9月7日
+          <br>就读于<a href="http://njupt.edu.cn" id="collegelink">@南京邮电大学</a>
+          <br>偶发性完美主义强迫症(不做完绝不停手)
+          <br><span class="icon-photo"> </span>摄影入门级选手
+          <br>资深不知名模联人 专注媒体&技术五年
+          <br><a href="http://www.battlenet.com.cn/wow/zh/character/%E5%B7%AB%E5%A6%96%E4%B9%8B%E7%8E%8B/%E6%9A%AE%E9%9B%AA%E5%87%8C%E9%A3%8E/advanced" id="gamelink">山口山</a>&<a href="http://dotamax.com/player/detail/132935963/" id="gamelink">Dota2玩家</a>
+          <br>曾用过Dark.xiaoyao&DarkPhoenix
+          </p>
+          <p class="title">学习经历</p>
+          <p id="education">
+            <div id="highsch">
+            <p onmouseover="highschOver(this)"><span class="icon-caret-right"> </span>南京市第十三中学</p>
+            <p id="hide-highsch">2010年9月-2013年6月
+            </div>
+            <li id="college" onmouseover="collegeOver(this)">南京邮电大学</li>
+            <span id="hide-college">软件工程
+            <br>2013年9月-2017年6月</span>
+            <script src="js/mouseover.js"></script>
+          </ul>
+          <p class="title">项目经历</p>
+          <ul id="work">
+            <li id="work1">汇文国际中学生模拟联合国大会官网</li>
+          </ul>
+
+        </div>
       </div>
       <footer class="row" id="footer">
         <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">

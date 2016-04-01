@@ -1,16 +1,17 @@
 @charset "utf-8";
+
 @font-face {
     font-family: 'icomoon';
-    src:    url('../fonts/icomoon.eot?s1aic3');
-    src:    url('../fonts/icomoon.eot?s1aic3#iefix') format('embedded-opentype'),
-        url('../fonts/icomoon.ttf?s1aic3') format('truetype'),
-        url('../fonts/icomoon.woff?s1aic3') format('woff'),
-        url('../fonts/icomoon.svg?s1aic3#icomoon') format('svg');
+    src:    url('../fonts/icomoon.eot?2damrp');
+    src:    url('../fonts/icomoon.eot?2damrp#iefix') format('embedded-opentype'),
+            url('../fonts/icomoon.ttf?2damrp') format('truetype'),
+            url('../fonts/icomoon.woff?2damrp') format('woff'),
+            url('../fonts/icomoon.svg?2damrp#icomoon') format('svg');
     font-weight: normal;
     font-style: normal;
 }
 
-[class^="icon-"], [class*="icon-"] {
+[class^="icon-"], [class*=" icon-"] {
     /* use !important to prevent issues with browser extensions that change fonts */
     font-family: 'icomoon' !important;
     speak: none;
@@ -34,6 +35,15 @@
 .icon-github:before {
     content: "\f09b";
 }
+.icon-caret-down:before {
+    content: "\f0d7";
+}
+.icon-caret-left:before {
+    content: "\f0d9";
+}
+.icon-caret-right:before {
+    content: "\f0da";
+}
 .icon-instagram:before {
     content: "\f16d";
 }
@@ -56,6 +66,8 @@
     content: "\f1e3";
 }
 
+
+
 @media only screen
 {
   html
@@ -64,7 +76,7 @@
   }
 }
 
-@media only screen and (max-width: 1280px) and (min-width: 1025px)
+@media only screen and (max-width: 1280px) and (min-width: 481px)
 {
   html
   {
@@ -72,27 +84,11 @@
   }
 }
 
-@media only screen and (max-width: 1024px) and (min-width: 769px)
-{
-  html
-  {
-    font-size: 18px;
-  }
-}
-
-@media only screen and (max-width: 768px) and (min-width: 481px)
-{
-  html
-  {
-    font-size: 15px;
-  }
-}
-
 @media only screen and (max-width: 480px) and (min-width: 321px)
 { 
   html 
   {
-    font-size: 10px; 
+    font-size: 16px; 
   } 
 }
 
@@ -100,12 +96,13 @@
 { 
   html 
   {
-    font-size: 8px; 
+    font-size: 12px; 
   } 
 }
 
 body
 {
+  color: #fff;
   font-family: -apple-system, "Helvetica Neue", Helvetica, "Nimbus Sans L", Arial, "Liberation Sans", "PingFang SC", "Hiragino Sans GB", "Source Han Sans CN", "Source Han Sans SC", "Microsoft YaHei", "Wenquanyi Micro Hei", "WenQuanYi Zen Hei", "ST Heiti", SimHei, "WenQuanYi Zen Hei Sharp", sans-serif;
   background-color: #000;
   padding-top:80px;
@@ -150,6 +147,11 @@ a.navbar-brand
 
 .navbar-toggle
 {
+
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 6px;
+  padding-bottom: 4px;
   margin: 20px 20px;
 }
 
@@ -196,14 +198,6 @@ a.navbar-brand
   background-color: #000;
 }
 
-@media (max-width: 767px)
-{
-  .navbar-default .navbar-nav .open .dropdown-menu>li>a
-  {
-    color: #fff;
-  }
-}
-
 @media(min-width: 768px)
 {
   .dropdown:hover .dropdown-menu
@@ -220,8 +214,8 @@ a.navbar-brand
 
 .dropdown-menu>li>a
 {
-  padding: 8px 5px;
   color: #fff;
+  padding: 8px 5px;
 }
 
 #background
@@ -229,7 +223,6 @@ a.navbar-brand
   position: relative;
   width: 100%;
   height: 100%;
-  z-index: -1;
   padding: 0;
 }
 
@@ -240,7 +233,6 @@ a.navbar-brand
   top: 5%;
   width: 84%;
   height: 90%;
-  z-index: -1;
   padding: 4% 0;
   text-align: center;
   display: block;
@@ -249,16 +241,14 @@ a.navbar-brand
 
 #info
 {
-  margin-top: 3%;
-  font-size: 1rem;
-  color: #fff;
+  margin-top: 0.5rem;
+  font-size: 0.75rem;
   text-align: center;
 }
 
 #copyright
 {
   font-size: 0.4rem;
-  color: #fff;
   text-align: center;
 }
 
@@ -269,16 +259,17 @@ a.navbar-brand
   margin: 0;
 }
 
-#contact
+.title
 {
-  font-size: 1.8rem;
-  color: #fff;
+  padding-top:0.5rem;
+  font-size: 1.2rem;
+  line-height: 1.5rem;
 }
 
-.contactme
+#contactme
 {
   font-size: 0.8rem;
-  line-height: 1rem;
+  line-height: 1.5rem;
 }
 
 p>a:link, p>a:visited
@@ -293,4 +284,67 @@ p>a:active, p>a:hover
   text-decoration: none;
   -webkit-transition: color 0.5s;
           transition: color 0.5s;
+}
+
+#aboutme
+{
+  font-size: 0.6rem;
+  line-height: 0.8rem;
+  cursor: default;
+}
+
+#collegelink:link, #collegelink:visited
+{
+  color: #6666ff;
+  text-decoration: none;
+}
+
+#collegelink:active, #collegelink:hover
+{
+  color: #fff;
+  text-decoration: none;
+  -webkit-transition: color 0.5s;
+          transition: color 0.5s;
+  cursor: help;
+}
+
+#gamelink:link, #gamelink:visited, #gamelink:active, #gamelink:hover
+{
+  color: #fff;
+  cursor: default;
+}
+
+#highsch
+{
+  width: 100%;
+  height: 1.2rem;
+  font-size: 0.8rem;
+  overflow: hidden;
+}
+
+#highsch:hover
+{
+  width: 100%;
+  height: 2.4rem;
+  -webkit-transition: height 1s;
+          transition: height 1s;
+  cursor: default;
+}
+
+#hide-highsch
+{
+  font-size: 0.5rem;
+  text-indent: 1.5em;
+}
+
+#college
+{
+  font-size: 0.8rem;
+}
+
+#hide-college
+{
+  padding: 0.3rem;
+  display: none;
+  font-size: 0.5rem;
 }
