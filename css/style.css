@@ -331,7 +331,7 @@ p>a:active, p>a:hover
   cursor: default;
 }
 
-#hide-highsch
+.hide-highsch
 {
   font-size: 0.5rem;
   text-indent: 1.5em;
@@ -339,12 +339,23 @@ p>a:active, p>a:hover
 
 #college
 {
+  width: 100%;
+  height: 1.2rem;
   font-size: 0.8rem;
+  overflow: hidden;
 }
 
-#hide-college
+#college:hover
 {
-  padding: 0.3rem;
-  display: none;
+  width: 100%;
+  height: 3.4rem;
+  -webkit-transition: height 1s;
+          transition: height 1s;
+  cursor: default;
+}
+
+.hide-college
+{
   font-size: 0.5rem;
+  text-indent: 1.5em;
 }
