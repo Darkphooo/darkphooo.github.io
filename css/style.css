@@ -147,7 +147,6 @@ a.navbar-brand
 
 .navbar-toggle
 {
-
   padding-left: 10px;
   padding-right: 10px;
   padding-top: 6px;
@@ -204,6 +203,11 @@ a.navbar-brand
   {
     display: block;
   }
+}
+
+.navbar-default .navbar-nav .open .dropdown-menu>li>a
+{
+  color: #fff;
 }
 
 .dropdown-menu
@@ -288,6 +292,8 @@ p>a:active, p>a:hover
 
 #aboutme
 {
+  list-style: none;
+  padding: 0;
   font-size: 0.6rem;
   line-height: 1rem;
   cursor: default;
@@ -311,6 +317,7 @@ p>a:active, p>a:hover
 #gamelink:link, #gamelink:visited, #gamelink:active, #gamelink:hover
 {
   color: #fff;
+  text-decoration: none;
   cursor: default;
 }
 
@@ -318,7 +325,7 @@ p>a:active, p>a:hover
 {
   width: 100%;
   height: 1.2rem;
-  font-size: 0.8rem;
+  font-size: 0.7rem;
   overflow: hidden;
   cursor: default;
   -webkit-transition: height 1s;
@@ -330,11 +337,16 @@ p>a:active, p>a:hover
   height: 2.8rem;
 }
 
+#highsch a
+{
+  cursor: help;
+}
+
 #college
 {
   width: 100%;
   height: 1.2rem;
-  font-size: 0.8rem;
+  font-size: 0.7rem;
   overflow: hidden;
   cursor: default;
   -webkit-transition: height 2s;
@@ -354,8 +366,14 @@ p>a:active, p>a:hover
   }
 }
 
+#college a
+{
+  cursor: help;
+}
+
 .hide-edu
 {
+  color: #fff;
   font-size: 0.5rem;
   text-indent: 1.5em;
   line-height: 0.5rem;
@@ -365,7 +383,7 @@ p>a:active, p>a:hover
 {
   width: 100%;
   height: 1.2rem;
-  font-size: 0.8rem;
+  font-size: 0.7rem;
   overflow: hidden;
   cursor: default;
   -webkit-transition: height 2s;
@@ -385,10 +403,48 @@ p>a:active, p>a:hover
   }
 }
 
+#work1 a
+{
+  cursor: help;
+}
 .hide-work
 {
+  color: #fff;
   font-size: 0.5rem;
   text-indent: 1.5em;
   line-height: 0.5rem;
 }
 
+#aboutmun
+{
+  width: 100%;
+  padding: 0;
+  margin-top: 1rem;
+  font-size: 0.6rem;
+  line-height: 1rem;
+  cursor: default;
+  table-layout: fixed;
+}
+
+.subtitle
+{
+  font-size: 0.75rem;
+}
+
+.text-divider
+{
+  color: #fff;
+  font-size: 0.6rem;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.text-left
+{
+  width: 75%;
+}
+
+.text-right
+{
+  width: 25%;
+}
