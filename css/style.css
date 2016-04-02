@@ -96,7 +96,7 @@
 { 
   html 
   {
-    font-size: 12px; 
+    font-size: 14px; 
   } 
 }
 
@@ -289,7 +289,7 @@ p>a:active, p>a:hover
 #aboutme
 {
   font-size: 0.6rem;
-  line-height: 0.8rem;
+  line-height: 1rem;
   cursor: default;
 }
 
@@ -327,7 +327,7 @@ p>a:active, p>a:hover
 
 #highsch:hover
 {
-  height: 2.4rem;
+  height: 2.8rem;
 }
 
 #college
@@ -346,10 +346,19 @@ p>a:active, p>a:hover
   height: 3.4rem;
 }
 
+@media(max-width: 320px)
+{
+  #college:hover
+  {
+    height: 4rem;
+  }
+}
+
 .hide-edu
 {
   font-size: 0.5rem;
   text-indent: 1.5em;
+  line-height: 0.5rem;
 }
 
 #work1
@@ -368,9 +377,18 @@ p>a:active, p>a:hover
   height: 3.4rem;
 }
 
+@media(max-width: 320px)
+{
+  #work1:hover
+  {
+    height: 4rem;
+  }
+}
+
 .hide-work
 {
   font-size: 0.5rem;
   text-indent: 1.5em;
+  line-height: 0.5rem;
 }
 
