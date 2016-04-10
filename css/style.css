@@ -358,7 +358,7 @@ p>a:active, p>a:hover
   height: 3.4rem;
 }
 
-@media(max-width: 320px)
+@media(max-width: 767px)
 {
   #college:hover
   {
@@ -395,7 +395,7 @@ p>a:active, p>a:hover
   height: 3.4rem;
 }
 
-@media(max-width: 320px)
+@media(max-width: 767px)
 {
   #work1:hover
   {
