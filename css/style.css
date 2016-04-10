@@ -355,14 +355,14 @@ p>a:active, p>a:hover
 
 #college:hover
 {
-  height: 3.6rem;
+  height: 3.4rem;
 }
 
 @media(max-width: 320px)
 {
   #college:hover
   {
-    height: 4rem;
+    height: 4.2rem;
   }
 }
 
@@ -392,14 +392,14 @@ p>a:active, p>a:hover
 
 #work1:hover
 {
-  height: 3.6rem;
+  height: 3.4rem;
 }
 
 @media(max-width: 320px)
 {
   #work1:hover
   {
-    height: 4rem;
+    height: 4.2rem;
   }
 }
 
