@@ -1,25 +1,35 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
     <title>Say something here</title>
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
-    <link href="css/count.css" rel="stylesheet">
-    <link href="css/typing.css" rel="stylesheet">
+    <link href="css/typed.css" rel="stylesheet">
     <link rel="icon" href="favicon.png">
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
   </head>
   <body>
-    <div class="row-fluid">
+    <div class="container">
+      <div class="row-fluid">
         <div class="col-xs-12">
-          
+          <!-- <video src="music/告白气球.mp3" autoplay class="music"></video> -->
+          <span class="element" style="white-space:pre"></span>
         </div>
       </div>
     </div>
     <script src="js/jquery-3.1.1.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
-    <script src="js/jquery.Count.js"></script>
-    <script src="js/changepic.js"></script>
+    <script src="js/typed.min.js"></script>
+    <script>
+      $(function(){
+          $(".element").typed({
+            strings: ["看到这里时，你一定已经收到那只布朗熊了，但愿快递没有迟到，还能赶上你的生日😄 ^500 \n想来想去有些话可能还是这样说比较适合我吧😂 ^500 \n首先呢还是要祝你生日快乐，在这二十岁的年月里能够顺心如意、身体健康、越来越漂亮~ ^500 \n ^500 \n相见亦无事，别后常忆君"],
+            typeSpeed: 0,
+            showCursor: false
+          });
+      });
+    </script>
   </body>
 </html>

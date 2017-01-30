@@ -448,3 +448,7 @@ p>a:active, p>a:hover
 {
   width: 25%;
 }
+
+.music {
+  display: none;
+}
