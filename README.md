@@ -35,4 +35,4 @@ pnpm preview
 pnpm dlx shadcn-vue@latest add @shadcn/button
 ```
 
-公共页脚位于 `src/App.vue`，备案号为苏ICP备2026091781号，链接至工信部备案系统。
+公共页脚位于 `src/App.vue`，展示苏ICP备2026091781号和苏公网安备32010202012517号，分别链接至工信部备案和公安备案查询平台。

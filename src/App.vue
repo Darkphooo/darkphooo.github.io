@@ -1,5 +1,6 @@
 <script setup>
 import HomeView from '@/views/HomeView.vue'
+import beianLogo from '../img/beian_logo.png'
 import logo from '../img/logo.png'
 </script>
 
@@ -19,6 +20,10 @@ import logo from '../img/logo.png'
       <p class="footer-note">写代码，也记录生活。</p>
       <p><a href="https://github.com/Darkphooo">Copyright &copy;2026 Darkphooo, All Rights Reserved</a></p>
       <p><a href="https://beian.miit.gov.cn/" target="_blank" rel="noopener noreferrer">苏ICP备2026091781号</a></p>
+      <p class="flex items-center gap-1">
+        <img :src="beianLogo" width="20" alt="">
+        <a href="https://beian.mps.gov.cn/#/query/webSearch?code=32010202012517" target="_blank" rel="noopener noreferrer">苏公网安备32010202012517号</a>
+      </p>
     </footer>
   </div>
 </template>
